@@ -10,6 +10,13 @@ PAGES = [
     "/careers",
 ]
 
+def normalize_name(text: str):
+    pass
+
+def name_matches(candidate_name: str, page_text: str):
+    pass
+
+
 for page in PAGES:
     url = BASE_URL + page
 
