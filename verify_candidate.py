@@ -3,13 +3,9 @@ import re
 from rapidfuzz import fuzz
 
 # Hardcoded candidate claim
-candidate = {
-    "name": "Oladokun Olaoluwa",
-    "employer": "JobsEden",
-    "title": "Software Engineering Intern",
-    "start_date": "2026-03-09",
-    "end_date": "Present"
-}
+with open("candidate_claim.json", "r", encoding="utf-8") as f:
+    candidate = json.load(f)
+
 
 # Load manually collected LinkedIn data
 with open("linkedin_profile.json", "r", encoding="utf-8") as f:
@@ -58,7 +54,7 @@ title_score, title_status = compare_field(
     linkedin["title"]
 )
 
-print("Candidate claim:")
+print("\n claim:")
 print(candidate)
 
 print("\nLinkedIn data:")
