@@ -1,0 +1,27 @@
+{
+    "candidate": "Oladokun Olaoluwa",
+    "status": "VERIFIED",
+    "confidence_score": 100.0,
+    "checks": {
+        "name": {
+            "status": "Verified",
+            "score": 100.0
+        },
+        "employer": {
+            "status": "Verified",
+            "score": 100.0
+        },
+        "title": {
+            "status": "Verified",
+            "score": 100.0
+        },
+        "start_date": {
+            "status": "Verified",
+            "score": 100.0
+        },
+        "end_date": {
+            "status": "Verified",
+            "score": 100.0
+        }
+    }
+}
